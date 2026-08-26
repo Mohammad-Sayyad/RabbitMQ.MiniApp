@@ -17,6 +17,7 @@ namespace Infrastructure.Persistence
         }
 
         public DbSet<TaskItem> Tasks => Set<TaskItem>();
+        //public DbSet<TaskItem> Tasks => Set<TaskItem>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
